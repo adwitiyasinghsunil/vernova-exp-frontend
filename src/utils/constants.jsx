@@ -1,7 +1,8 @@
 import React from 'react';
 import { Mail, Youtube, Globe, Github, Twitter } from 'lucide-react';
 
-export const API_BASE_URL = "http://localhost:10000/api";
+// UPDATED: Points to your live Vercel backend
+export const API_BASE_URL = "https://vernova-exp-backend.vercel.app/api";
 
 export const ENDPOINTS = {
   TEXT: `${API_BASE_URL}/vernova-text-novagen-beta01`
