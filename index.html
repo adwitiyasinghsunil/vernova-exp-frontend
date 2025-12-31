@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="theme-color" content="#000000" />
+
+    <title>Vernova AI</title>
+    <meta name="title" content="Vernova AI | Secure Intelligent Code Generation" />
+    <meta name="description" content="Vernova is the next-gen AI coding assistant prioritizing data sovereignty. Features E2E masking, vulnerability analysis, and NVIDIA-accelerated optimization. Built by Adwitiya Singh." />
+    <meta name="keywords" content="Vernova AI, Secure Coding, AI Assistant, Adwitiya Singh, Code Optimization, React AI, Developer Tools, Cybersecurity, Pothole Detection" />
+    <meta name="author" content="Adwitiya Singh" />
+    <meta name="robots" content="index, follow" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://vernova-ai.netlify.app/" />
+    <meta property="og:title" content="Vernova AI | Secure Intelligent Code Generation" />
+    <meta property="og:description" content="Experience security-first AI. Generate optimized, vulnerability-free code with enterprise-grade privacy masking." />
+    <meta property="og:image" content="/og-image.png" />
+
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://vernova-ai.web.app/" />
+    <meta property="twitter:title" content="Vernova AI | Secure Intelligent Code Generation" />
+    <meta property="twitter:description" content="Experience security-first AI. Generate optimized, vulnerability-free code with enterprise-grade privacy masking." />
+    <meta property="twitter:image" content="/og-image.png" />
+
+    <link rel="icon" type="image/svg+xml" href="/vernovalogo.jpeg" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;600&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+
+    <script>
+      if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.classList.add('dark')
+      } else {
+        document.documentElement.classList.remove('dark')
+      }
+    </script>
+  </head>
+  
+  <body class="bg-black text-white antialiased selection:bg-white selection:text-black">
+    <div id="root"></div>
+    
+    <noscript>
+      <div style="padding: 2rem; color: white; text-align: center;">
+        Vernova AI requires JavaScript to function securely. Please enable it to proceed.
+      </div>
+    </noscript>
+
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
